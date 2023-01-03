@@ -1,12 +1,12 @@
 # Linear Regression for recipe nutritional content
 
-# SCENARIO
+# Scenario
 You are a team of data scientists and ML engineers working for a recipe website. Every day your website receives recipe submissions from users. The recipes are analyzed by a lab to ascertain their nutritional content. Then the recipe is posted on your website along with its nutrition information. Your company makes money by running ads along with the recipes. Recently, ad space on high-protein receipes has been in high demand, so the company is interested in maximizing the use of the high-protein recipes that users submit. The problem is that the lab generally can't analyze recipes as quickly as they are submitted, so their queue is always full. The good news is that the lab will let you push recipes to the front of the queue so that they will get processed sooner. If you suspect a recipe will, after analysis, be labeled "high protein", then it would be a good idea to push it to the front of the queue.
 
-# TASK 
+# Task
 Your team's job is to build a model that predicts whether a recipe is high protein based on features of the recipe (ex., the ingredients). Each new recipe will be presented to your model. If you model predicts that it will be high protein, then that receipe will be pushed to the front of the lab's queue. Otherwise it will be pushed to the back ofthe lab's queue.
 
-# NOTE ALSO
+# Note
 Predictions are great -- as a starting point. But no business ever got to IPO by saying, "We have the best mean-squared-error in our industry!" Instead, businesses survive and thrive by earning money. Since your team is part of a business, you'll need to understand the dollar value of your model: How much more money could your company earn if they deployed your model?
 
 Fortunately, you have a simulator that can turn model predictions into ad revenue estimates. The simulator simulates the users' recipe submissions
